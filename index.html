@@ -7,14 +7,11 @@
     </head>
     <body>
         <div class="maindiv">
-            <div class="subdiv">
-        
                 <h1>Simple Interest Calculator</h1>
 
-        
-        Amount  <input type="number" id="principal">  <br/>
-        Rate <input type="range" onchange="updateRate()" id="rate" min="1" max="20" step="0.25" value="10.25"><span id="rate_val">10.25%</span>  <br/>
-        No. of Years <select id="years">
+        <label>Amount</label>          <input type="number" id="principal"><br><br>
+        <label>Interest Rate</label>   <input type="range" onchange="updateRate()" id="rate" min="1" max="20" step="0.25" value="10.25"><span id="rate_val">10.25</span>%<br><br>
+        <label>No. of Years</label>    <select id="years">
                         <option value="1">1</option>  
                         <option value="2">2</option> 
                         <option value="3">3</option> 
@@ -26,10 +23,9 @@
                         <option value="9">9</option> 
                         <option value="10">10</option><br/>
                      </select><br><br>
-             <button onclick="check()">Compute Interest</button><br><br>
-             <span id="result"></span><br>
-        <footer>&#169; This Calculator belongs to Marvin</footer>
-            </div>
+             <button class="button" onclick="check()">Compute Interest</button><br><br>
+             <span class="span" id="result"></span><br>
+             <footer class="footer">&#169; This Calculator belongs to Marvin</footer>
         </div>
     </body>
 </html>

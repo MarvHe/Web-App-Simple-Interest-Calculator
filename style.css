@@ -1,19 +1,39 @@
 body {background-color:black; font-family:arial; color:white}
 h1{color:grey; font-family:verdana}
-.maindiv{
-    position:fixed;
-    top:50%;
-    left:50%;
-    margin-left: -100px;
-    margin-top: -50px;
+input {
+    display: inline-block;
+    float: left;
 }
-.subdiv{
+label{
+    display: table;
+    padding-left:5em;
+    float: left;
+    width: 150px;
+    text-align: left;
+}
+.button{
+    margin-left:80px;
+}
+.span{
+    display: table;
+    padding-left:5em;
+    float: left;
+    text-align: left;
+}
+.footer{
+    text-align:left;
+    float: left;
+    display: table;
+}
+.maindiv{
     background-color:white;
     color:black;
-    width:300px;
+    margin:auto;
+    width:500px;
+    height:350px;
     padding:20px;
     border-radius:25px;
-    text-align:center;
 }
+
 
 
